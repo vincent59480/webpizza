@@ -1,0 +1,1 @@
+le repertoire APP sotcke les scripts communs à toutes les applications
