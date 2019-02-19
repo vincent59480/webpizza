@@ -22,7 +22,5 @@ if (!empty($_SERVER["SERVER_NAME"]) && in_array($_SERVER["SERVER_NAME"],$dev_dom
     }
 
 
-echo "-------------------------<br>";
-echo "valeur de \$env =: ".$env;
 
 
