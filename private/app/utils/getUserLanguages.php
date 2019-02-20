@@ -7,7 +7,7 @@
  */
 if(!function_exists("getUserlanguages"))
     {
-        function getUserlanguages()
+        function getUserlanguages($alllanguages=false)
         {
             //on récupere la liste des langues depuis la super global
             $languages_str =$_SERVER["HTTP_ACCEPT_LANGUAGE"];
@@ -19,8 +19,11 @@ if(!function_exists("getUserlanguages"))
                 $value=$value[0];
                 $languages_arr[$key] = $value;
             }
-            
+            if($alllanguages){
+                return $languages_arr;
+            }
+            return $languages_arr[0];
         }
 
 }
-getUserlanguages();
+getUserlanguages(false);

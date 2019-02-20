@@ -34,8 +34,9 @@ require_once "../private/app/src/rooting.php";
 require_once "../private/app/src/load_utils.php";
 
 echo randstr(32,false,true);
-// echo randstr(10,true,true);
-echo "bbb";
+echo randstr(10,true,true);
+getUserlanguages(true);
+
 
 /**
  * 7. Compilation de la page
