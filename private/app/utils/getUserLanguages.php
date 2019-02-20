@@ -17,7 +17,7 @@ if(!function_exists("getUserlanguages"))
              {
                 $value= explode(";",$value);
                 $value=$value[0];
-                debug($value);
+                $languages_arr[$key] = $value;
             }
             
         }
