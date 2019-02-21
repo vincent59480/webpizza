@@ -28,3 +28,27 @@ $dev_domains = [
     "localhost",
     "webpizza.local"
 ];
+
+/**
+ * 3. définition des variables de BDD
+ */
+// Liste des configurations de connections aux bases de données par défaut
+$db_config=[];// tableau qui va contenir toutes les informations de connection à la BDD
+// Liste des connections aux BDD
+// Cette liste sera nourris par le fichier db_connect.php
+$db=[];
+// inclusion de la config de la BDD
+require_once "database.php";
+
+/**
+ * 4. Définition des Variables de routage.
+ * 
+ */
+// définition de l'uri
+ $uri ="/";
+ //Définition de la table de routage par défaut
+ $routes=[];
+ // contient les information de la route courante
+ $route=[];
+//inclusion de ka config du rootage
+require_once "routes.php";

@@ -1,5 +1,5 @@
 <?php
-echo UTILS_PATH;
+// echo UTILS_PATH;
 /**
  * fonction qui genere une chaine de caracteres aléatoires
  */
