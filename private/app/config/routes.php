@@ -12,6 +12,8 @@
  */
 
  $routes=[
+
+    //route[0],route[1],route[2],route[0],route[3],
 // Route Index (page d'acceuil du site)
     ["homepage","/","homepage:index",["HEAD","GET"]],
     // Liste des produits
@@ -26,11 +28,11 @@
 
     // Pages de sécurité
     ["login", "/login", "security:login", ["HEAD","GET","POST"]],
-    ["register", "/register", "security:register", ["HEAD","GET","POST"]],
-    ["forgotten_password", "/forgotten-password", "security:forgotten_password", ["HEAD","GET","POST"]],
+    ["register", "/inscription", "security:register", ["HEAD","GET","POST"]],
+    ["forgotten_password", "/mot-de-passe-oublie", "security:forgotten_password", ["HEAD","GET","POST"]],
 
     // Page de commande
-    ["order", "/order", "order:index", ["HEAD","GET"]],
+    ["order", "/panier", "order:index", ["HEAD","GET"]],
 
     // Profil utilisateur
     ["account", "/mon-compte", "account", ["HEAD","GET"]],

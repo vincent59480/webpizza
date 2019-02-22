@@ -2,7 +2,6 @@
 
 /**
  * Definitions des expressions régulières
- * mise dans un objet
  */
 var re = {
     firstname: /^[a-z-]+$/i,

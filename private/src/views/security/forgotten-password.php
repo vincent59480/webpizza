@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Page de password oublié Webpizza</h1>
+    <h1>Page du mot de passe oublié Webpizza</h1>
 </body>
 </html>
