@@ -23,8 +23,8 @@
     ["drinks", "/boissons", "products:drinks", ["HEAD","GET"]],
     ["menus", "/menus", "products:menus", ["HEAD","GET"]],
 
-    // Page de contact
-    ["contact", "/contact", "contact:index", ["HEAD","GET","POST"]],
+    // Page de traitement du formulaire
+    ["contact", "/contact", "contact:index", ["HEAD","POST"]],
 
     // Pages de sécurité
     ["login", "/login", "security:login", ["HEAD","GET","POST"]],
