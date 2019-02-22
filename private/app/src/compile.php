@@ -66,5 +66,5 @@ include_once $controller_path;
 if(!function_exists($controller_methode)){
     throw new Exception("La methode \"".$controller_methode."de la route".$route[0]."\"est manquante");
 }
-// homepage_index();
+// Execution de la fonction en fonction de la route;
 $controller_methode();

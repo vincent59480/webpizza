@@ -37,6 +37,6 @@
 
 
     //Erreur 404 Toujours mettre en dernier
-    ["error-404","/404","error:404",["HEAD","GET"]]
+    ["error-404","/404","errors:404",["HEAD","GET"]]
 
  ];
