@@ -33,7 +33,7 @@ echo strftime(" %Y");
     <script src="assets/js/bootstrap.min.js" ></script>
 
     <!-- App JS -->
-    <script src="assets/js/app.js? <?php time() ?>"></script>
+    <script src="assets/js/app.js?<?= time() ?>"></script>
 
 </body>
 

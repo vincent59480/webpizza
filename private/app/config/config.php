@@ -52,3 +52,11 @@ require_once "database.php";
  $route=[];
 //inclusion de ka config du rootage
 require_once "routes.php";
+/**
+ * Définition des expressions régulieres
+ */
+$re = [
+  "firstname" => '/^[a-z-]+$/i',
+  "lastname" => '/^[a-z-]+$/i',
+  "email" => '/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/'
+];

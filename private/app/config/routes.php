@@ -15,6 +15,7 @@
 
     //route[0],route[1],route[2],route[0],route[3],
 // Route Index (page d'acceuil du site)
+    
     ["homepage","/","homepage:index",["HEAD","GET"]],
     // Liste des produits
     ["pizzas", "/pizzas", "products:pizzas", ["HEAD","GET"]],

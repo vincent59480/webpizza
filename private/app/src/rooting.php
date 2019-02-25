@@ -24,6 +24,7 @@ if (!empty($_SERVER["REQUEST_URI"])){
 foreach ($routes as $route) {
     //le parametre path doit correspondre à ûri
     if ($route[1]==$uri){
+
         //on ajoute le nom de la route courante dans la variable $GLOBALS de php
         // pour l'utiliser par la suite
 
