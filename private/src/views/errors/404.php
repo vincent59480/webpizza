@@ -1,7 +1,7 @@
 <?php
 include_once "../private/src/views/layout/header.php";
 ?>
-Erreur
+Erreur de chargement de la page
 
 <?php
 include_once "../private/src/views/layout/footer.php";
