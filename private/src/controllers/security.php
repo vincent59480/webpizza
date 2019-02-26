@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST")
             $_SESSION['user'] = $r[0];
 
             // Redirige l'utilisateur
-            header("location: a.php");
+            header("location: index.php");
             exit;
 
         }
