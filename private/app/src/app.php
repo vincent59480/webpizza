@@ -18,7 +18,7 @@ require_once "../private/app/config/config.php";
 /**
  * 3. Définition de l'environnement
  */
-require_once "../private/app/src/environement.php";
+require_once "../private/app/src/environnement.php";
 
 /**
  * 4. Comportement des erreurs
