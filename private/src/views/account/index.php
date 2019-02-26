@@ -1,7 +1,7 @@
 <?php
 include_once "../private/src/views/layout/header.php";
 ?>
-account
+Mon compte
 
 <?php
 include_once "../private/src/views/layout/footer.php";
