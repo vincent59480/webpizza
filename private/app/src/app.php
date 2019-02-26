@@ -1,44 +1,46 @@
 <?php
-
+/**
+ * Fichier d'exécution de l'application
+ */
 
 /**
- * 1. intégration de la configuration
+ * 1. Démarrage de la session
+ * --
+ * La session va permettre de suivre le visiteur pendant la durée de sa navigation
+ */
+session_start();
+
+/**
+ * 2. Intégration de la configuration
  */
 require_once "../private/app/config/config.php";
 
-
 /**
- * 2. définition de l'environement
+ * 3. Définition de l'environnement
  */
 require_once "../private/app/src/environement.php";
 
-
 /**
- * 3. Comportement des erreurs
+ * 4. Comportement des erreurs
  */
 require_once "../private/app/src/err_reporting.php";
 
-
 /**
- * 4. Connection aux bases de données
+ * 5. Connections aux base de données
  */
 require_once "../private/app/src/db_connect.php";
 
 /**
- * 5. routage de l'application
+ * 6. Routage de l'application
  */
-require_once "../private/app/src/rooting.php";
+require_once "../private/app/src/routing.php";
+
 /**
- * 6. Inclusion des fonctions utils
+ * 7. Inclusion des fonctions "Utils"
  */
 require_once "../private/app/src/load_utils.php";
 
-// echo randstr(32,false,true);
-// echo randstr(10,true,true);
-// getUserlanguages(true);
-
-
 /**
- * 7. Compilation de la page
+ * 8. Compilation de la page
  */
 require_once "../private/app/src/compile.php";

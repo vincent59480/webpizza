@@ -89,11 +89,11 @@ function contact_index(){
         else {
             echo "erreur sur le formulaire";
         }
-        var_dump($_POST);
-        var_dump($firstname);
-        var_dump($lastname);
-        var_dump($email);
-        var_dump($message);
+        // var_dump($_POST);
+        // var_dump($firstname);
+        // var_dump($lastname);
+        // var_dump($email);
+        // var_dump($message);
     }
 
 
